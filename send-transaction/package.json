@@ -1,0 +1,26 @@
+{
+  "name": "send-transaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.11.1",
+    "@tonclient/appkit": "^0.3.0",
+    "@tonclient/core": "^1.30.0",
+    "@tonclient/lib-node": "^1.30.0",
+    "axios": "^1.6.8",
+    "expand-network": "^3.1.0",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "ton": "^13.9.0",
+    "tonweb": "^0.0.66"
+  }
+}
